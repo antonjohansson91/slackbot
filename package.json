@@ -4,7 +4,7 @@
   "description": "Workshop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,10 @@
   "homepage": "https://github.com/antonjohansson91/slackbot#readme",
   "private": true,
   "dependencies": {
+    "@antjoh/compliments": "^1.0.0",
     "slackbots": "^0.5.2"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
   "engines": {
-   "node": ">=6.0.0"
+    "node": ">=6.0.0"
   }
 }
